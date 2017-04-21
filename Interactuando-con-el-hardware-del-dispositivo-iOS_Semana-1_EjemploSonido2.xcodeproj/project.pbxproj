@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		942CCC651EAA1FDA00ABF378 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942CCC641EAA1FDA00ABF378 /* AppDelegate.swift */; };
+		942CCC671EAA1FDA00ABF378 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942CCC661EAA1FDA00ABF378 /* ViewController.swift */; };
+		942CCC6A1EAA1FDA00ABF378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942CCC681EAA1FDA00ABF378 /* Main.storyboard */; };
+		942CCC6C1EAA1FDA00ABF378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942CCC6B1EAA1FDA00ABF378 /* Assets.xcassets */; };
+		942CCC6F1EAA1FDA00ABF378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942CCC6D1EAA1FDA00ABF378 /* LaunchScreen.storyboard */; };
+		942CCC7A1EAA1FDA00ABF378 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_1_EjemploSonido2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942CCC791EAA1FDA00ABF378 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_1_EjemploSonido2Tests.swift */; };
+		942CCC851EAA1FDA00ABF378 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_1_EjemploSonido2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942CCC841EAA1FDA00ABF378 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_1_EjemploSonido2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		942CCC761EAA1FDA00ABF378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 942CCC591EAA1FDA00ABF378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 942CCC601EAA1FDA00ABF378;
+			remoteInfo = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2";
+		};
+		942CCC811EAA1FDA00ABF378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 942CCC591EAA1FDA00ABF378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 942CCC601EAA1FDA00ABF378;
+			remoteInfo = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		942CCC611EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		942CCC641EAA1FDA00ABF378 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		942CCC661EAA1FDA00ABF378 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		942CCC691EAA1FDA00ABF378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		942CCC6B1EAA1FDA00ABF378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		942CCC6E1EAA1FDA00ABF378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		942CCC701EAA1FDA00ABF378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		942CCC751EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		942CCC791EAA1FDA00ABF378 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_1_EjemploSonido2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_1_EjemploSonido2Tests.swift; sourceTree = "<group>"; };
+		942CCC7B1EAA1FDA00ABF378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		942CCC801EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		942CCC841EAA1FDA00ABF378 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_1_EjemploSonido2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_1_EjemploSonido2UITests.swift; sourceTree = "<group>"; };
+		942CCC861EAA1FDB00ABF378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		942CCC5E1EAA1FDA00ABF378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942CCC721EAA1FDA00ABF378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942CCC7D1EAA1FDA00ABF378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		942CCC581EAA1FDA00ABF378 = {
+			isa = PBXGroup;
+			children = (
+				942CCC631EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2 */,
+				942CCC781EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2Tests */,
+				942CCC831EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2UITests */,
+				942CCC621EAA1FDA00ABF378 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		942CCC621EAA1FDA00ABF378 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				942CCC611EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2.app */,
+				942CCC751EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2Tests.xctest */,
+				942CCC801EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		942CCC631EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2 */ = {
+			isa = PBXGroup;
+			children = (
+				942CCC641EAA1FDA00ABF378 /* AppDelegate.swift */,
+				942CCC661EAA1FDA00ABF378 /* ViewController.swift */,
+				942CCC681EAA1FDA00ABF378 /* Main.storyboard */,
+				942CCC6B1EAA1FDA00ABF378 /* Assets.xcassets */,
+				942CCC6D1EAA1FDA00ABF378 /* LaunchScreen.storyboard */,
+				942CCC701EAA1FDA00ABF378 /* Info.plist */,
+			);
+			path = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2";
+			sourceTree = "<group>";
+		};
+		942CCC781EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				942CCC791EAA1FDA00ABF378 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_1_EjemploSonido2Tests.swift */,
+				942CCC7B1EAA1FDA00ABF378 /* Info.plist */,
+			);
+			path = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2Tests";
+			sourceTree = "<group>";
+		};
+		942CCC831EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				942CCC841EAA1FDA00ABF378 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_1_EjemploSonido2UITests.swift */,
+				942CCC861EAA1FDB00ABF378 /* Info.plist */,
+			);
+			path = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		942CCC601EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942CCC891EAA1FDB00ABF378 /* Build configuration list for PBXNativeTarget "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2" */;
+			buildPhases = (
+				942CCC5D1EAA1FDA00ABF378 /* Sources */,
+				942CCC5E1EAA1FDA00ABF378 /* Frameworks */,
+				942CCC5F1EAA1FDA00ABF378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2";
+			productName = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2";
+			productReference = 942CCC611EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		942CCC741EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942CCC8C1EAA1FDB00ABF378 /* Build configuration list for PBXNativeTarget "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2Tests" */;
+			buildPhases = (
+				942CCC711EAA1FDA00ABF378 /* Sources */,
+				942CCC721EAA1FDA00ABF378 /* Frameworks */,
+				942CCC731EAA1FDA00ABF378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				942CCC771EAA1FDA00ABF378 /* PBXTargetDependency */,
+			);
+			name = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2Tests";
+			productName = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2Tests";
+			productReference = 942CCC751EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		942CCC7F1EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942CCC8F1EAA1FDB00ABF378 /* Build configuration list for PBXNativeTarget "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2UITests" */;
+			buildPhases = (
+				942CCC7C1EAA1FDA00ABF378 /* Sources */,
+				942CCC7D1EAA1FDA00ABF378 /* Frameworks */,
+				942CCC7E1EAA1FDA00ABF378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				942CCC821EAA1FDA00ABF378 /* PBXTargetDependency */,
+			);
+			name = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2UITests";
+			productName = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2UITests";
+			productReference = 942CCC801EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		942CCC591EAA1FDA00ABF378 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Juan Carlos Carbajal Ipenza";
+				TargetAttributes = {
+					942CCC601EAA1FDA00ABF378 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 85667CV2UC;
+						ProvisioningStyle = Automatic;
+					};
+					942CCC741EAA1FDA00ABF378 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 85667CV2UC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 942CCC601EAA1FDA00ABF378;
+					};
+					942CCC7F1EAA1FDA00ABF378 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 85667CV2UC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 942CCC601EAA1FDA00ABF378;
+					};
+				};
+			};
+			buildConfigurationList = 942CCC5C1EAA1FDA00ABF378 /* Build configuration list for PBXProject "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 942CCC581EAA1FDA00ABF378;
+			productRefGroup = 942CCC621EAA1FDA00ABF378 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				942CCC601EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2 */,
+				942CCC741EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2Tests */,
+				942CCC7F1EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		942CCC5F1EAA1FDA00ABF378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942CCC6F1EAA1FDA00ABF378 /* LaunchScreen.storyboard in Resources */,
+				942CCC6C1EAA1FDA00ABF378 /* Assets.xcassets in Resources */,
+				942CCC6A1EAA1FDA00ABF378 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942CCC731EAA1FDA00ABF378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942CCC7E1EAA1FDA00ABF378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		942CCC5D1EAA1FDA00ABF378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942CCC671EAA1FDA00ABF378 /* ViewController.swift in Sources */,
+				942CCC651EAA1FDA00ABF378 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942CCC711EAA1FDA00ABF378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942CCC7A1EAA1FDA00ABF378 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_1_EjemploSonido2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942CCC7C1EAA1FDA00ABF378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942CCC851EAA1FDA00ABF378 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_1_EjemploSonido2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		942CCC771EAA1FDA00ABF378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 942CCC601EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2 */;
+			targetProxy = 942CCC761EAA1FDA00ABF378 /* PBXContainerItemProxy */;
+		};
+		942CCC821EAA1FDA00ABF378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 942CCC601EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2 */;
+			targetProxy = 942CCC811EAA1FDA00ABF378 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		942CCC681EAA1FDA00ABF378 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942CCC691EAA1FDA00ABF378 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		942CCC6D1EAA1FDA00ABF378 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942CCC6E1EAA1FDA00ABF378 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		942CCC871EAA1FDB00ABF378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		942CCC881EAA1FDB00ABF378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		942CCC8A1EAA1FDB00ABF378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85667CV2UC;
+				INFOPLIST_FILE = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Interactuando-con-el-hardware-del-dispositivo-iOS-Semana-1-EjemploSonido2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		942CCC8B1EAA1FDB00ABF378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85667CV2UC;
+				INFOPLIST_FILE = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Interactuando-con-el-hardware-del-dispositivo-iOS-Semana-1-EjemploSonido2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		942CCC8D1EAA1FDB00ABF378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 85667CV2UC;
+				INFOPLIST_FILE = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Interactuando-con-el-hardware-del-dispositivo-iOS-Semana-1-EjemploSonido2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2.app/Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2";
+			};
+			name = Debug;
+		};
+		942CCC8E1EAA1FDB00ABF378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 85667CV2UC;
+				INFOPLIST_FILE = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Interactuando-con-el-hardware-del-dispositivo-iOS-Semana-1-EjemploSonido2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2.app/Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2";
+			};
+			name = Release;
+		};
+		942CCC901EAA1FDB00ABF378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 85667CV2UC;
+				INFOPLIST_FILE = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Interactuando-con-el-hardware-del-dispositivo-iOS-Semana-1-EjemploSonido2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2";
+			};
+			name = Debug;
+		};
+		942CCC911EAA1FDB00ABF378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 85667CV2UC;
+				INFOPLIST_FILE = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Interactuando-con-el-hardware-del-dispositivo-iOS-Semana-1-EjemploSonido2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		942CCC5C1EAA1FDA00ABF378 /* Build configuration list for PBXProject "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942CCC871EAA1FDB00ABF378 /* Debug */,
+				942CCC881EAA1FDB00ABF378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		942CCC891EAA1FDB00ABF378 /* Build configuration list for PBXNativeTarget "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942CCC8A1EAA1FDB00ABF378 /* Debug */,
+				942CCC8B1EAA1FDB00ABF378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		942CCC8C1EAA1FDB00ABF378 /* Build configuration list for PBXNativeTarget "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942CCC8D1EAA1FDB00ABF378 /* Debug */,
+				942CCC8E1EAA1FDB00ABF378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		942CCC8F1EAA1FDB00ABF378 /* Build configuration list for PBXNativeTarget "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942CCC901EAA1FDB00ABF378 /* Debug */,
+				942CCC911EAA1FDB00ABF378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 942CCC591EAA1FDA00ABF378 /* Project object */;
+}
