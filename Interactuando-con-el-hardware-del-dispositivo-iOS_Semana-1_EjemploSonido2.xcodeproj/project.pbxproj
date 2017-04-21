@@ -14,6 +14,8 @@
 		942CCC6F1EAA1FDA00ABF378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942CCC6D1EAA1FDA00ABF378 /* LaunchScreen.storyboard */; };
 		942CCC7A1EAA1FDA00ABF378 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_1_EjemploSonido2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942CCC791EAA1FDA00ABF378 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_1_EjemploSonido2Tests.swift */; };
 		942CCC851EAA1FDA00ABF378 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_1_EjemploSonido2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942CCC841EAA1FDA00ABF378 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_1_EjemploSonido2UITests.swift */; };
+		942CCC941EAA215000ABF378 /* 46121478ea2d56cc942d0fbcc84d402b.1000x1000x1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 942CCC921EAA215000ABF378 /* 46121478ea2d56cc942d0fbcc84d402b.1000x1000x1.jpg */; };
+		942CCC951EAA215000ABF378 /* EJQEAFYhWMSAN6PrADyDbNFEG5I916.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 942CCC931EAA215000ABF378 /* EJQEAFYhWMSAN6PrADyDbNFEG5I916.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		942CCC801EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		942CCC841EAA1FDA00ABF378 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_1_EjemploSonido2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_1_EjemploSonido2UITests.swift; sourceTree = "<group>"; };
 		942CCC861EAA1FDB00ABF378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		942CCC921EAA215000ABF378 /* 46121478ea2d56cc942d0fbcc84d402b.1000x1000x1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 46121478ea2d56cc942d0fbcc84d402b.1000x1000x1.jpg; sourceTree = "<group>"; };
+		942CCC931EAA215000ABF378 /* EJQEAFYhWMSAN6PrADyDbNFEG5I916.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = EJQEAFYhWMSAN6PrADyDbNFEG5I916.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		942CCC631EAA1FDA00ABF378 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-1_EjemploSonido2 */ = {
 			isa = PBXGroup;
 			children = (
+				942CCC921EAA215000ABF378 /* 46121478ea2d56cc942d0fbcc84d402b.1000x1000x1.jpg */,
+				942CCC931EAA215000ABF378 /* EJQEAFYhWMSAN6PrADyDbNFEG5I916.mp3 */,
 				942CCC641EAA1FDA00ABF378 /* AppDelegate.swift */,
 				942CCC661EAA1FDA00ABF378 /* ViewController.swift */,
 				942CCC681EAA1FDA00ABF378 /* Main.storyboard */,
@@ -236,8 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				942CCC6F1EAA1FDA00ABF378 /* LaunchScreen.storyboard in Resources */,
+				942CCC951EAA215000ABF378 /* EJQEAFYhWMSAN6PrADyDbNFEG5I916.mp3 in Resources */,
 				942CCC6C1EAA1FDA00ABF378 /* Assets.xcassets in Resources */,
 				942CCC6A1EAA1FDA00ABF378 /* Main.storyboard in Resources */,
+				942CCC941EAA215000ABF378 /* 46121478ea2d56cc942d0fbcc84d402b.1000x1000x1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
